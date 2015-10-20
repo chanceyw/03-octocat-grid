@@ -1,8 +1,15 @@
 html {
-  border-style: solid;
+
   background-color: white;
-  padding: 10
+  padding: 10;
+  font-size: 1em;
+
 }
 .pic {
-  width: 300px;
+  width: 360px;
+  border-style: solid;
+  border-color: grey;
+}
+.col {
+float: left;
 }
