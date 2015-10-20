@@ -1,3 +1,8 @@
-html{
-
+html {
+  border-style: solid;
+  background-color: white;
+  padding: 10
+}
+.pic {
+  width: 300px;
 }
