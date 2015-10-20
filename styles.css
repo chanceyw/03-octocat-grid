@@ -7,8 +7,7 @@ html {
 }
 .pic {
   width: 360px;
-  border-style: solid;
-  border-color: grey;
+  border: 1px solid grey;
 }
 .col {
 float: left;
