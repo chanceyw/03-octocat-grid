@@ -1,20 +1,21 @@
 html {
-
-  background-color: white;
-  padding: 10;
-  font-size: 1em;
-
+ background-color: white;
+ font-size: 1rem;
+ font-family: sans-serif;
 }
+
 .pic {
   width: 360px;
 
   border: 1px solid grey;
 }
+
 .col {
   float: left;
   display: inline-block;
 
 }
-.author .avatar{
-
+.tag {
+  display: inline;
+  float: right;
 }
