@@ -5,17 +5,29 @@ html {
 }
 
 .pic {
-  width: 360px;
-
+  width: 420px;
+  display: inline;
+  padding: 3px;
   border: 1px solid grey;
+
 }
 
 .col {
-  float: left;
+  width: 29%;
   display: inline-block;
 
 }
 .tag {
   display: inline;
-  float: right;
+  font-size: .75rem;
+  position: relative;
+  top: -25px;
+  right: -175px;
+
+}
+.number{
+  font-size: .75rem;
+  position: relative;
+  top: 14px;
+width: inherit;
 }
