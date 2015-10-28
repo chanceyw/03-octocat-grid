@@ -15,6 +15,10 @@ html {
 .col {
   width: 29%;
   display: inline-block;
+  border-bottom: 1px solid grey;
+  border width: 100%;
+
+
 
 }
 .tag {
@@ -28,6 +32,6 @@ html {
 .number{
   font-size: .75rem;
   position: relative;
-  top: 14px;
+  top: 5px;
 width: inherit;
 }
