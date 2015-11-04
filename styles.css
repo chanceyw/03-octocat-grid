@@ -1,37 +1,38 @@
 html {
+ box-sizing: border-box;
  background-color: white;
- font-size: 1rem;
+ font-size: 10px;
  font-family: sans-serif;
 }
 
-.pic {
-  width: 420px;
-  display: inline;
-  padding: 3px;
-  border: 1px solid grey;
+body {
+  max-width: 1000px;
+  margin: auto;
+}
 
+.pic {
+width: 300px;
+padding: 10px;
+border: solid grey 1px;
 }
 
 .col {
-  width: 29%;
+  width: 300px;
+  height: 300px;
   display: inline-block;
-  border-bottom: 1px solid grey;
-  border width: 100%;
-
-
-
+  padding: 10px;
 }
+
 .tag {
   display: inline;
-  font-size: .75rem;
-  position: relative;
-  top: -25px;
-  right: -175px;
-
+  float: right;
 }
+
 .number{
-  font-size: .75rem;
-  position: relative;
-  top: 5px;
-width: inherit;
+  display: inline-block;
+  color: #909090;
+}
+
+hr{
+  margin: 0;
 }
